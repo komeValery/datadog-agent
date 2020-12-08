@@ -15,6 +15,7 @@ import (
 	"time"
 
 	"github.com/DataDog/datadog-agent/pkg/trace/pb"
+	"github.com/tinylib/msgp/msgp"
 )
 
 // ErrNotStarted is returned when attempting to operate an unstarted Runner.
